@@ -67,7 +67,7 @@ deleteSubmissionByIndex(array, index);
 //5. Declare a function named editSubmission 
 
 const editScore = (array, index, score) => {
-    let pass = array.score
+    let pass = array.passed
     if (score >= 60) {
        pass === true;
     //    return pass
@@ -85,11 +85,6 @@ console.log(submissions);
 //just use FIND()?
 // const editSubmission = (array, index,score)=>{
 
-// let edit = array.score[index]=score;
-// return edit;
-// }
-// editSubmission(submissions, [1], 45);
-// console.log(submissions);
 
 //*******COME BACK********* */
 
@@ -106,25 +101,8 @@ const findSubmissionByName = (array, name)=>{
 // console.log(findSubmissionByName(submissions, "Jill"));
 
 //7. Declare a function named findLowestScore
+//write notes
 
-// const findLowestScore =(array)=>{
-//     //use comparison?
-    
-//     array.forEach((newScore)=>{
-//         let newLowestScore = submission.score;
-//         let lowestScore = newLowestScore;
-//         if (lowestScore < newScore){
-//             newScore == newLowestScore
-//         } 
-//         return lowestScore;
-//     });
-//     array.find((score)=>{
-// return submission.score === score;
-//     });
-//     //then use find
-// }
-
-// console.log(findLowestScore(submissions));
 
 //Mitch's solution
 const findLowestScore=(array)=>{
